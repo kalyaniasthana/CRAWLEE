@@ -1,12 +1,12 @@
 import tweepy #open source library to access Twitter's API
 
-#declare the variable consumer_key,consumer_secret,access_token,access_token_secret for your registered Twitter app here.
+#declare the variables consumer_key,consumer_secret,access_token,access_token_secret for your registered Twitter app here.
 #consumer_key="......."
 #consumer_secret="........"
 #access_token="........"
 #access_token_secret="........"
 
-#creating a tweepy api object with the four kets defined above
+#creating a tweepy api object with the four keys defined above
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
 auth.set_access_token(access_token, access_token_secret)
 
