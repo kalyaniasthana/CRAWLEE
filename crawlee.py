@@ -1,4 +1,4 @@
-import tweepy #open sourse library to access Twitter's API
+import tweepy #open source library to access Twitter's API
 
 #declare the variable consumer_key,consumer_secret,access_token,access_token_secret for your registered Twitter app here.
 #consumer_key="......."
@@ -25,4 +25,4 @@ try: #for a valid user id
 	print("Number of statuses: ",user.statuses_count)
 	print("User URL: ",user.url)
 except Exception as e: # if the user Id is not valid 
-print(e)
+	print(e)
